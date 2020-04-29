@@ -1,0 +1,23 @@
+#body{
+    margin: 0;
+    padding: 0;
+}
+#app{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    height: 100%;
+    background: #FB8072;
+    position: absolute;
+}
+#handsome{
+    display: block;
+    position: relative;
+    top: calc(50% - 50px);
+}
+#app button{
+    height: 150px;
+    width: 90px;
+    font-size: 2em;
+}
