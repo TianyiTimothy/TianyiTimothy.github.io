@@ -8,9 +8,19 @@
 
 ### 重点
 
-#### 概述
+#### 前言
 
 audio标签是HTML5中新增的标签之一。可以看看[HTML5之前怎么导入音频](https://www.runoob.com/html/html-sounds.html)。
+
+网页内播放可以用embed导入，但是embed标签过不了HTML4的validation。下面这个用了vue绑定src。
+
+```html
+<embed height="50" width="100" :src="songUrl">
+```
+
+#### audio标签概述
+
+
 
 #### src属性
 
