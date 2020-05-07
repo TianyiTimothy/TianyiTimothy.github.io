@@ -32,6 +32,22 @@ https://tianyitimothy.github.io/resources/arcs.mp3
 
 
 
+#### 子标签source
+
+类似src属性，用法Demo:
+
+```html
+<audio controls>
+	<source src="my.mp3">
+	<source src="my.ogg">
+</audio>
+
+```
+
+用于放多个src，这样浏览器不支持的src会略过，尝试播放下一个。
+
+
+
 #### 属性
 
 ##### `src`
