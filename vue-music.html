@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html id="html">
 
 <head>
   <title>vue index</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <!-- <script src="../../js/vue.js"></script> -->
+  <!-- dev -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -17,12 +18,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/TMusic.css">
 </head>
 
-<body style="overflow-x: hidden; overflow-y: scroll;">
+<body id="body">
 
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">TMusic</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -31,11 +33,11 @@
         </button>
         <div class="collapse navbar-collapse form-inline" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">Play Random Song</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Play Random Hiphop</a>
+              <a class="nav-link" href="#" @click="randomTopHiphop">Random Top Hiphop (CN)</a>
             </li>
           </ul>
           <input class="form-control mr-sm-2" type="text" :placeholder="defaultSearchSuggestion" aria-label="Search"
@@ -44,32 +46,34 @@
         </div>
       </div>
     </nav>
-    <div class="row">
+    <main id="main" class="row" v-cloak>
       <div class="col-sm-3">
 
-        <!-- todo:   -->
+        <!-- left area -->
 
 
       </div>
-      <div class="col-sm-6">
-
+      <div class="center col-sm-6">
+        <!-- center area -->
+        <div class="center__imgwrapper">
+          <img :src="songCoverUrl" class="rounded mx-auto d-block">
+        </div>
 
 
       </div>
       <div class="col-sm-3">
         <ul class="list-group">
           <span class="list-group-item" v-for="(song, songIndex) in playList">
-            <a href="#" @click="songClick(song.id)">
+            <a href="#" @click="songClick(song.id, songIndex)">
               {{song.name}}
             </a>-
-             <span v-for="(artist, artistIndex) in song.artists"><span v-show="artistIndex>0"> |
-          <!-- todo 搜索歌手 -->
-              </span><a href="#">{{artist.name}}</a></span>
-
+            <span v-for="(artist, artistIndex) in song.artists"><span v-show="artistIndex>0"> |
+                <!-- todo 搜索歌手: 用同级的artist.id -->
+              </span><a href="#" @click="artistClick(artist.name)">{{artist.name}}</a></span>
           </span>
         </ul>
       </div>
-    </div>
+    </main>
 
     <div class="fixed-bottom bg-light">
       <audio id="audio" controls loop autoplay :src="songUrl">
@@ -83,7 +87,7 @@
         </div>  -->
     </div>
   </div>
-  <script src="js/vue-music.js"></script>
+  <script src="js/TMusic.js"></script>
 
 </body>
 

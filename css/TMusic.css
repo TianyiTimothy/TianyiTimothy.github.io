@@ -1,0 +1,22 @@
+#html, #body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#body{
+  background-color: #efefef;
+}
+#main{
+  margin-top: 55px;
+}
+[v-cloak]{
+  display: none;
+}
+.center__imgwrapper{
+  width: 100%;
+}
+.center__imgwrapper img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
