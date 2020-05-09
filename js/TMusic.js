@@ -16,20 +16,29 @@
   method: get
   parameter: ids (id of songs)
   return: detail of songs. including cover of the songs.
+
+  获得歌曲MV
+  url: https://autumnfish.cn/mv/url
+  method: get
+  parameter: id (mvid, 0 means there's no mv)
+  return: url of the song's mv
 */
 
 const urlListHead = "https://autumnfish.cn/search";
 const urlSongUrlHead = "https://autumnfish.cn/song/url";
 const urlSongDetailHead = "https://autumnfish.cn/song/detail";
+const urlMvUrlHead = "https://autumnfish.cn/mv/url";
 const app = new Vue({
   el: '#app',
   data: {
-    defaultSearchSuggestion: "life is good",
+    defaultSearchSuggestion: "我真的没想好",
     keywords: "",
     playList: [],
     songUrl: "",
     songCoverUrl: "img/dontpanic.jpg",
     activeSongIndex: null,
+    mvUrl: "",
+    mvIsClicked: false
   },
   methods: {
     searchMusic() {
@@ -57,6 +66,7 @@ const app = new Vue({
             if (response.data.result.songCount == 0) {
               this.playList = [{ name: "no result for '" + this.keywords + "'... Go For a Random Song" }];
             }
+            console.log(this.playList);
             // 到这里就意味着可以执行then了
             resolve();
           }, (err) => {
@@ -116,8 +126,15 @@ const app = new Vue({
         // 从playlist里掏出来一首（需要songid获取url）
         this.songClick(this.playList[index].id, index);
       });
-
-
+    },
+    mvClick(mvid){
+      // const url = urlMvUrlHead + "?id=" + mvid;
+      axios.post(urlMvUrlHead, {id: mvid}).then(response=>{
+        this.mvUrl = response.data.data.url;
+        this.mvIsClicked = true;
+      }, err=>{
+        alert(err);
+      });
     }
   },
 });

@@ -55,28 +55,38 @@
       </div>
       <div class="center col-sm-6">
         <!-- center area -->
-        <div class="center__imgwrapper">
-          <img :src="songCoverUrl" class="rounded mx-auto d-block">
+        <!-- <div class="center__videowrapper" v-show="mvIsClicked">
+          <video class="center__videowrapper_video" :src="mvUrl" controls></video>
+        </div> -->
+
+        <div class="embed-responsive embed-responsive-16by9" v-show="mvIsClicked">
+          <iframe class="embed-responsive-item" :src="mvUrl" allowfullscreen></iframe>
         </div>
 
-
+        <div class="center__imgwrapper" v-show="!mvIsClicked">
+          <img :src="songCoverUrl" class="rounded mx-auto d-block center__videowrapper_img">
+        </div>
+        
       </div>
       <div class="col-sm-3">
         <ul class="list-group">
           <span class="list-group-item" v-for="(song, songIndex) in playList">
+            <a href="#" @click="mvClick(song.mvid)" v-show="song.mvid != 0">
+              <!-- todo mv img -->MV</a>
             <a href="#" @click="songClick(song.id, songIndex)">
               {{song.name}}
             </a>-
-            <span v-for="(artist, artistIndex) in song.artists"><span v-show="artistIndex>0"> |
-                <!-- todo 搜索歌手: 用同级的artist.id -->
-              </span><a href="#" @click="artistClick(artist.name)">{{artist.name}}</a></span>
+            <span v-for="(artist, artistIndex) in song.artists">
+              <span v-show="artistIndex>0"> | </span>
+              <a href="#" @click="artistClick(artist.name)">{{artist.name}}</a>
+            </span>
           </span>
         </ul>
       </div>
     </main>
 
     <div class="fixed-bottom bg-light">
-      <audio id="audio" controls loop autoplay :src="songUrl">
+      <audio id="audio" controls loop autoplay :src="songUrl" controlsList="nodownload" oncontextmenu="return false">
         <!-- <source :src="songUrl"> -->
       </audio>
       <!-- <div>
