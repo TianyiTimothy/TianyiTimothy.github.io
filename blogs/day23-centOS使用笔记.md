@@ -57,7 +57,12 @@ Hi xxx! You’ve successfully authenticated, but GitHub does not provide shell a
 
 比如我要把代码下载下来，就直接进入存放的位置然后clone
 
+```bash
+$ cd xx
+git clone www.github.com/yourlink/yourwork
+```
 
 
 
+## nginx部署项目
 
