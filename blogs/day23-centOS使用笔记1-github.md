@@ -63,6 +63,3 @@ git clone www.github.com/yourlink/yourwork
 ```
 
 
-
-## nginx部署项目
-

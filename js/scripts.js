@@ -1,5 +1,5 @@
-    // jQuery
-    (function ($) {
+// jQuery
+(function ($) {
 
     // scrolling
     $('a.js-scroll-trigger').click(function () {
@@ -22,7 +22,7 @@
     $(".js-scroll-trigger").click(function () {
         const screen_width = window.screen.width;
         // if is not desktop
-        if(screen_width<991.5){
+        if (screen_width < 991.5) {
             $(".navbar-collapse").collapse("hide");
         }
     });
@@ -30,6 +30,20 @@
     // highlight clicked link
     $("body").scrollspy({
         target: "#sideNav",
+    });
+
+    
+    // percentage
+    $(window).scroll(function () {
+        $("#percentage").text(() => {
+            s = $(window).scrollTop(),
+                d = $(document).height(),
+                c = $(window).height();
+            percentage = (s / (d - c)) * 100;
+            percentage = Math.round(percentage);
+
+            return percentage + "%";
+        })
     });
 
 })(jQuery);

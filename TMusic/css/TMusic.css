@@ -1,0 +1,45 @@
+#html, #body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#body{
+  background-color: #efefef;
+}
+#main{
+  margin-top: 55px;
+}
+[v-cloak]{
+  display: none;
+}
+.center__imgwrapper,.center__videowrapper{
+  width: 100%;
+}
+.center__imgwrapper .center__videowrapper_img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+/* .center__videowrapper .center__videowrapper_video{
+
+} */
+
+/* 自己画的svg */
+.svgBtn{
+  cursor: pointer;
+}
+/* play */
+.playButton{
+  border: black 2px solid;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.playButton path{
+  d: path('M 31,20 11,30 11,10 z');
+  transition: d .2s linear .1s;
+}
+/* pause */
+.playButton.playing path{
+  d: path('M 12,10 12,30 17,30 17,10 z M 23,10 23,30 28,30 28,10 z');
+}
