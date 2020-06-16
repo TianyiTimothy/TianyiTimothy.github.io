@@ -10140,6 +10140,7 @@ section.resume-section .resume-section-content {
 }
 .portfolio__project .portfolio__project_imgwrapper .portfolio__project_imgwrapper_img{
   width: 100%;
+  height: 100%;
   transition: transform 0.6s;
 }
 .portfolio__project_imgwrapper:hover .portfolio__project_imgwrapper_img {
@@ -10153,4 +10154,16 @@ section.resume-section .resume-section-content {
   .flexItem {
     width: 100%;
   }
+}
+
+#about{
+  background-image: url("../img/banner.png");
+  background-size: 1600px;
+  background-attachment: fixed;
+  color: #eee;
+  max-width: 100rem;
+  min-height: 100vh;
+}
+#about h1{
+  color: #eee;
 }
