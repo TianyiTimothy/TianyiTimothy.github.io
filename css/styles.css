@@ -10154,6 +10154,10 @@ section.resume-section .resume-section-content {
   .flexItem {
     width: 100%;
   }
+  
+  .desktop-only{
+    display: none;
+  }
 }
 
 #about{
@@ -10164,7 +10168,8 @@ section.resume-section .resume-section-content {
   max-width: 100rem;
   min-height: 100vh;
 }
-#about h1{
+#about h1,
+#about h2{
   color: #eee;
 }
 
