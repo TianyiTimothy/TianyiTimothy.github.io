@@ -10140,7 +10140,8 @@ section.resume-section .resume-section-content {
 }
 .portfolio__project .portfolio__project_imgwrapper .portfolio__project_imgwrapper_img{
   width: 100%;
-  height: 100%;
+  height: 20vh;
+  object-fit: cover;
   transition: transform 0.6s;
 }
 .portfolio__project_imgwrapper:hover .portfolio__project_imgwrapper_img {
