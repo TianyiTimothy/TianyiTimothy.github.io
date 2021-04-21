@@ -10182,10 +10182,17 @@ section.transition{
   min-height: 50vh;
   max-width: 100rem;
   background-image: url("../img/transitionbanner.png");
+  background-size: cover;
 }
 .transition h2{
   color: #eee;
 }
 #transition-blog{
   background-image: url("../img/blogbanner.png");
+  background-size: cover;
+}
+
+#portfolio{
+  text-align: center;
+  max-width: 95rem;
 }
