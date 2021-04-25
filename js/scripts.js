@@ -1,6 +1,10 @@
 // jQuery
 (function ($) {
 
+    // $(window).ready(()=>{
+    //     $("#description").hide();
+    // })
+
     // scrolling
     $('a.js-scroll-trigger').click(function () {
         var target = $(this.hash);
@@ -45,5 +49,11 @@
             return percentage + "%";
         })
     });
+
+    // portfolio description
+    $(".description-btn").click(()=>{
+        // $("#description").show();
+    })
+
 
 })(jQuery);

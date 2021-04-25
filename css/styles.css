@@ -10117,7 +10117,7 @@ section.resume-section .resume-section-content {
 }
 .flexItem {
   width: 300px;
-  min-height: 350px;
+  min-height: 400px;
   margin-right: 20px;
   margin-bottom: 30px;
   position: relative;
@@ -10148,6 +10148,7 @@ section.resume-section .resume-section-content {
   transform:scale(1.2);
 }
 .portfolio__project .portfolio__project_imgwrapper .portfolio__project_imgwrapper_img{
+  min-height: 175px;
   text-align: right;
 }
 
