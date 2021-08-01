@@ -2475,9 +2475,9 @@ a:hover.back-to-top {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #36a3c9;
+	border: 0.125rem solid #f59326;
 	border-radius: 0.25rem;
-	background-color: #36a3c9;
+	background-color: #f59326;
 	color: #fff;
 	font: 700 1rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -2486,7 +2486,7 @@ a:hover.back-to-top {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #36a3c9;
+	color: #f59326;
 	text-decoration: none;
 }
 /* end of CTA Banner */
