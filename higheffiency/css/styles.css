@@ -1170,75 +1170,6 @@ input[type='checkbox'] {
 }
 
 
-/****************************/
-/*     10. Testimonials     */
-/****************************/
-.slider {
-	padding-top: 6.375rem;
-	padding-bottom: 6.5rem;
-	background-color: #fbfbfb;
-}
-
-.slider h2 {
-	margin-bottom: 0.75rem;
-	text-align: center;
-}
-
-.slider .slider-container {
-	position: relative;
-}
-
-.slider .swiper-container {
-	position: static;
-	width: 90%;
-	text-align: center;
-}
-
-.slider .swiper-button-prev:focus,
-.slider .swiper-button-next:focus {
-	/* even if you can't see it chrome you can see it on mobile device */
-	outline: none;
-}
-
-.slider .swiper-button-prev {
-	left: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
-	background-size: 1.125rem 1.75rem;
-}
-
-.slider .swiper-button-next {
-	right: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
-	background-size: 1.125rem 1.75rem;
-}
-
-.slider .card {
-	position: relative;
-	border: none;
-	background-color: transparent;
-}
-
-.slider .card-image {
-	width: 6rem;
-	height: 6rem;
-	margin-right: auto;
-	margin-bottom: 0.25rem;
-	margin-left: auto;
-	border-radius: 50%;
-}
-
-.slider .card .card-body {
-	padding-bottom: 0;
-}
-
-.slider .testimonial-text {
-	margin-bottom: 0.625rem;
-}
-
-.slider .testimonial-author {
-	color: #484a46;
-}
-
 
 /**********************/
 /*     11. Call Me    */
@@ -2288,7 +2219,7 @@ a:hover.back-to-top {
 
 	/* Intro */
 	.basic-1 .text-container {
-		margin-top: 1.875rem;
+		margin-top: 5rem;
 		margin-right: 3rem;
 	}
 	/* end of intro */
@@ -2445,3 +2376,241 @@ a:hover.back-to-top {
 	/* end of navigation */
 }
 /* end of min-width width 1200px */
+
+/* General */
+
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+
+.section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.section p,
+.section ul,
+.section li{
+	font-family: "Montserrat", sans-serif;
+}
+
+.featured-banner{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.featured-banner p{
+	font-family: "Montserrat", sans-serif;
+}
+
+.section-title{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* end of General */
+
+/* why choose us */
+.why-choose-us .card{
+	text-align: center;
+	width: 23%;
+	float: left;
+	margin: 0 1%;
+	font-family: "Montserrat", sans-serif;
+	border: none;
+}
+
+.why-choose-us .card p{
+	font-family: "Montserrat", sans-serif;
+	display: inline-block;
+	height: 100px;
+}
+
+.why-choose-us .fa-stack {
+	width: 6rem;
+	height: 6rem;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	line-height: 6rem;
+	text-align: left;
+}
+
+.why-choose-us .fa-stack .hexagon {
+	position: absolute;
+	width: 6rem;
+	height: 6rem;
+	background-color: #36a3c9;
+	background-size: 6rem 6rem;
+	border-radius: 50%;
+}
+
+.why-choose-us .fa-stack-1x {
+	color: #fff;
+	font-size: 2rem;
+}
+
+/* end of why choose us */
+
+/* CTA Banner */
+.cta-banner{
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),  url("../images/header-background.jpg");
+}
+
+.cta-banner h2{
+	color: #FFFFFF;
+}
+
+.cta-banner p{
+	font-family: "Montserrat", sans-serif;
+	color: #dfe5ec;
+}
+
+.btn-solid-lg {
+	display: inline-block;
+	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+	border: 0.125rem solid #36a3c9;
+	border-radius: 0.25rem;
+	background-color: #36a3c9;
+	color: #fff;
+	font: 700 1rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+	background-color: transparent;
+	color: #36a3c9;
+	text-decoration: none;
+}
+/* end of CTA Banner */
+
+
+
+/* our services */
+.our-services .card{
+	text-align: center;
+	width: 23%;
+	float: left;
+	margin: 0 1%;
+	font-family: "Montserrat", sans-serif;
+}
+
+.our-services .card p{
+	font-family: "Montserrat", sans-serif;
+	display: inline-block;
+	height: 100px;
+}
+
+.our-services .fa-stack {
+	width: 6rem;
+	height: 6rem;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	line-height: 6rem;
+	text-align: left;
+}
+
+.our-services .fa-stack .hexagon {
+	position: absolute;
+	width: 6rem;
+	height: 6rem;
+	background-color: #36a3c9;
+	background-size: 6rem 6rem;
+	border-radius: 50%;
+}
+
+.our-services .fa-stack-1x {
+	color: #fff;
+	font-size: 2rem;
+}
+
+/* end of our services */
+
+/* testimonials */
+.slider {
+	padding-top: 6.375rem;
+	padding-bottom: 6.5rem;
+	background-color: #fff;
+}
+
+.slider h2 {
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.slider .slider-container {
+	position: relative;
+}
+
+.slider .swiper-container {
+	position: static;
+	width: 90%;
+	text-align: center;
+}
+
+.slider .swiper-button-prev:focus,
+.slider .swiper-button-next:focus {
+	/* even if you can't see it chrome you can see it on mobile device */
+	outline: none;
+}
+
+.slider .swiper-button-prev {
+	left: -0.5rem;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider .swiper-button-next {
+	right: -0.5rem;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider .card {
+	position: relative;
+	border: none;
+	background-color: transparent;
+}
+
+.slider .card-image {
+	height: 6rem;
+	margin-right: auto;
+	margin-bottom: 0.25rem;
+	margin-left: auto;
+	border-radius: 50%;
+}
+
+.slider .card .card-body {
+	padding-bottom: 0;
+}
+
+.slider .testimonial-text {
+	margin-bottom: 0.625rem;
+}
+
+.slider .testimonial-author {
+	color: #484a46;
+}
+.review-image-box{
+	margin-top: 2rem;
+}
+.review-image{
+	height: 100px;
+	margin: 0 1rem;
+}
+/* end of testimonials */
+
+/* about-us */
+#about-us.basic-1 .text-container-right {
+	margin-top: 5rem;
+	margin-left: 3rem;
+}
+/* end of about us */
