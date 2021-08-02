@@ -2544,7 +2544,7 @@ a:hover.back-to-top {
 .slider {
 	padding-top: 6.375rem;
 	padding-bottom: 6.5rem;
-	background-color: #fff;
+	background-color: #fbfbfb;
 }
 
 .slider h2 {
@@ -2642,7 +2642,7 @@ form#callMeForm {
     font-size: 26px;
 }
 .why-choose-us.section {
-    background: #fbf6f1;
+    background: #fbfbfb;
     padding-top: 30px;
     margin-top: 30px;
 }
