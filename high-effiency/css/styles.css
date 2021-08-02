@@ -46,23 +46,26 @@ Colors:
 /******************************/
 /*     01. General Styles     */
 /******************************/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
 body,
 html {
     width: 100%;
 	height: 100%;
+    font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 body, p {
 	color: #787976; 
-	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
+	font: 400 1rem/1.5625rem 'Source Sans Pro', sans-serif;
 }
 
 .p-large {
-	font: 400 1.125rem/1.625rem "Open Sans", sans-serif;
+	font: 400 1.125rem/1.625rem 'Source Sans Pro', sans-serif;
 }
 
 .p-small {
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.375rem 'Source Sans Pro', sans-serif;
 }
 
 .p-heading {
@@ -79,33 +82,35 @@ body, p {
 }
 
 h1 {
-	color: #484a46;
-	font: 700 2.5rem/3rem "Montserrat", sans-serif;
+	color: #4c5667;
+	font: 700 2.5rem/3rem 'Source Sans Pro', sans-serif;
 }
 
 h2 {
-	color: #484a46;
-	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+	color: #4c5667;
+	font: 700 1.75rem/2.125rem 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    line-height: 1.35em;
 }
 
 h3 {
-	color: #484a46;
-	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+	color: #4c5667;
+	font: 700 1.375rem/1.75rem 'Source Sans Pro', sans-serif;
 }
 
 h4 {
-	color: #484a46;
-	font: 700 1.25rem/1.625rem "Montserrat", sans-serif;
+	color: #4c5667;
+	font: 700 1.25rem/1.625rem 'Source Sans Pro', sans-serif;
 }
 
 h5 {
-	color: #484a46;
-	font: 700 1.125rem/1.5rem "Montserrat", sans-serif;
+	color: #4c5667;
+	font: 700 1.125rem/1.5rem 'Source Sans Pro', sans-serif;
 }
 
 h6 {
-	color: #484a46;
-	font: 700 1rem/1.375rem "Montserrat", sans-serif;
+	color: #4c5667;
+	font: 700 1rem/1.375rem 'Source Sans Pro', sans-serif;
 }
 
 a {
@@ -132,7 +137,7 @@ a.white,
 }
 
 .testimonial-author {
-	font: 700 1rem/1.375rem "Montserrat", sans-serif;
+	font: 700 1rem/1.375rem 'Source Sans Pro', sans-serif;
 }
 
 strong {
@@ -141,7 +146,7 @@ strong {
 
 .section-title {
 	color: #f59326;
-	font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
+	font: 500 0.8125rem/1.125rem 'Source Sans Pro', sans-serif;
 }
 
 .btn-solid-reg {
@@ -151,7 +156,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: #f59326;
 	color: #fff;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -169,7 +174,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: #f59326;
 	color: #fff;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -187,7 +192,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: transparent;
 	color: #787976;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -205,7 +210,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: transparent;
 	color: #787976;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -223,7 +228,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: transparent;
 	color: #787976;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -239,10 +244,6 @@ strong {
 	margin-bottom: 1.25rem;
 }
 
-.form-group.has-error.has-danger {
-	margin-bottom: 0.625rem;
-}
-
 .form-group.has-error.has-danger .help-block.with-errors ul {
 	margin-top: 0.375rem;
 }
@@ -253,7 +254,7 @@ strong {
 	left: 1.375rem;
 	color: #787976;
 	opacity: 1;
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.375rem 'Source Sans Pro', sans-serif;
 	cursor: text;
 	transition: all 0.2s ease;
 }
@@ -286,7 +287,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #787976;
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.375rem 'Source Sans Pro', sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
@@ -340,7 +341,7 @@ select::-ms-expand {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #787976;
-	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
+	font: 400 1rem/1.5625rem 'Source Sans Pro', sans-serif;
 	transition: all 0.2s;
 }
 
@@ -358,7 +359,7 @@ select::-ms-expand {
 }
 
 .checkbox {
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 1.125rem/1.375rem 'Source Sans Pro', sans-serif;
 }
 
 input[type='checkbox'] {
@@ -381,14 +382,13 @@ input[type='checkbox'] {
 	border-radius: 0.25rem;
 	background-color: #f59326;
 	color: #fff;
-	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
+	font: 700 0.75rem/1.75rem 'Source Sans Pro', sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
 }
-
-.form-control-submit-button:hover {
-	background-color: transparent;
-	color: #f59326;
+.form-control-submit-button:hover{
+	color: #fff !important;
+	background-color: #ff9d30 !important;
 }
 
 /* Form Success And Error Message Formatting */
@@ -401,7 +401,7 @@ input[type='checkbox'] {
 	display: block;
 	margin-bottom: 0;
 	color: #b93636;
-	font: 400 1.125rem/1rem "Open Sans", sans-serif;
+	font: 400 1.125rem/1rem 'Source Sans Pro', sans-serif;
 }
 
 .help-block.with-errors .list-unstyled {
@@ -655,8 +655,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 7.0625rem;
-	height: 2rem;
+    width: 12rem;
+	height: auto;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -723,7 +723,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+	font: 600 0.875rem/0.875rem 'Source Sans Pro', sans-serif;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
@@ -772,7 +772,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/banner-background.png') center center no-repeat;
+	background: url('../images/banner3.0.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -787,8 +787,8 @@ input[type='checkbox'] {
 }
 
 .header h1 {
-	margin-bottom: 0.5rem;
-	color: #fff;
+	margin-bottom: 2rem;
+	color: #55a2c5;
 }
 
 .header .p-large {
@@ -1194,9 +1194,10 @@ input[type='checkbox'] {
 }
 
 .form-1 .list-unstyled .fas {
-	color: #f59326;
-	font-size: 0.5rem;
+	color: #e79742;
+	font-size: 1.75rem;
 	line-height: 1.375rem;
+    padding-right: 15px;
 }
 
 .form-1 .list-unstyled .media-body {
@@ -1209,8 +1210,8 @@ input[type='checkbox'] {
 
 .form-1 .form-control-input,
 .form-1 .form-control-select {
-	border: 1px solid #39728f;
-	background-color: #2a5d77;
+/*	border: 1px solid #39728f;*/
+	background-color: #b1c9d4;
 	color: #fff;
 }
 
@@ -1670,16 +1671,17 @@ input[type='checkbox'] {
 /*     18. Copyright     */
 /*************************/
 .copyright {
-	padding-top: 1rem;
-	padding-bottom: 0.5rem;
-	background-color: #fff;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #36a3c9;
 	text-align: center;
 }
 
 .copyright p,
 .copyright a {
-	color: #dfe5ec;
+	color: #fff;
 	text-decoration: none;
+	margin-bottom: 0;
 }
 
 
@@ -1859,7 +1861,7 @@ a:hover.back-to-top {
 	}
 
 	.header h1 {
-		font: 700 3.5rem/4rem "Montserrat", sans-serif;
+		font: 700 3.5rem/4rem 'Source Sans Pro', sans-serif;
 	}
 	/* end of header */
 
@@ -2211,8 +2213,8 @@ a:hover.back-to-top {
 	
 	/* Header */
 	.header .header-content {
-		padding-top: 14.75rem;
-		padding-bottom: 17.5rem;
+		padding-top: 6rem;
+		padding-bottom: 10rem;
 	}
 	/* end of header */
 
@@ -2413,6 +2415,9 @@ a:hover.back-to-top {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+.mtn-50{
+	margin-top: -50%;
+}
 
 /* end of General */
 
@@ -2434,7 +2439,7 @@ a:hover.back-to-top {
 
 .why-choose-us .fa-stack {
 	width: 6rem;
-	height: 6rem;
+	height: 3rem;
 	margin-right: auto;
 	margin-bottom: 1rem;
 	margin-left: auto;
@@ -2460,33 +2465,34 @@ a:hover.back-to-top {
 
 /* CTA Banner */
 .cta-banner{
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),  url("../images/header-background.jpg");
+	background-image:url("../images/section-bg.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .cta-banner h2{
-	color: #FFFFFF;
+	color: #4c5667;
 }
 
 .cta-banner p{
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #dfe5ec;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #f59326;
+	border: 0.125rem solid #e79742;
 	border-radius: 0.25rem;
-	background-color: #f59326;
 	color: #fff;
-	font: 700 1rem/0 "Montserrat", sans-serif;
+	font: 700 1rem/0 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
+    font-size: 22px !important;
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
-	color: #f59326;
+	color: #e79742;
 	text-decoration: none;
 }
 /* end of CTA Banner */
@@ -2499,11 +2505,11 @@ a:hover.back-to-top {
 	width: 23%;
 	float: left;
 	margin: 0 1%;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .our-services .card p{
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	display: inline-block;
 	height: 100px;
 }
@@ -2614,3 +2620,55 @@ a:hover.back-to-top {
 	margin-left: 3rem;
 }
 /* end of about us */
+
+
+/*custom code*/
+#header .gray {
+    color: #4c5667;
+    font-size: 20px;
+    font-weight: 600 !important;
+}
+
+form#callMeForm {
+    margin-top: -10rem;
+    background-color:#55a2c5;
+    padding: 50px 50px 30px 50px;
+}
+
+#callMe ul li .media-body h3 {
+    font-weight: 600;
+    color: #405761;
+    padding-bottom: 1em;
+    font-size: 26px;
+}
+.why-choose-us.section {
+    background: #fbf6f1;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.cta-banner p {
+    color: #4c5667;
+    font-size: 18px;
+}
+
+.slider .slider-container {
+    position: relative;
+    padding: 10px 30px;
+}
+
+#callMeForm input .help-block ul li {
+    height: 10px !important;
+}
+ul.list-unstyled.li-space-lg {
+    position: relative;
+}
+.scribble {
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+#callMe .scribble img {
+    width: 120px;
+    text-align: right;
+}
