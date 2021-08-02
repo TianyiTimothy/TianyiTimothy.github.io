@@ -1205,14 +1205,14 @@ input[type='checkbox'] {
 }
 
 .form-1 .label-control {
-	color: #fff;
+	color: #333;
 }
 
 .form-1 .form-control-input,
 .form-1 .form-control-select {
 /*	border: 1px solid #39728f;*/
-	background-color: #b1c9d4;
-	color: #fff;
+	background-color: white;
+	color: #333;
 }
 
 .form-1 .form-control-textarea {
@@ -2458,7 +2458,7 @@ a:hover.back-to-top {
 
 .why-choose-us .fa-stack-1x {
 	color: #fff;
-	font-size: 2rem;
+	font-size: 2.25rem;
 }
 
 /* end of why choose us */
@@ -2544,7 +2544,7 @@ a:hover.back-to-top {
 .slider {
 	padding-top: 6.375rem;
 	padding-bottom: 6.5rem;
-	background-color: #fbfbfb;
+	background-color: #ffffff;
 }
 
 .slider h2 {
@@ -2624,51 +2624,60 @@ a:hover.back-to-top {
 
 /*custom code*/
 #header .gray {
-    color: #4c5667;
-    font-size: 20px;
-    font-weight: 600 !important;
+	color: #4c5667;
+	font-size: 20px;
+	font-weight: 600 !important;
 }
 
 form#callMeForm {
-    margin-top: -10rem;
-    background-color:#55a2c5;
-    padding: 50px 50px 30px 50px;
+	margin-top: -10rem;
+	background-color:#55a2c5;
+	padding: 50px 50px 30px 50px;
 }
 
 #callMe ul li .media-body h3 {
-    font-weight: 600;
-    color: #405761;
-    padding-bottom: 1em;
-    font-size: 26px;
+	font-weight: 600;
+	color: #405761;
+	padding-bottom: 1em;
+	font-size: 26px;
 }
 .why-choose-us.section {
-    background: #fbfbfb;
-    padding-top: 30px;
-    margin-top: 30px;
+	background: #F8F8F8;
+	padding-top: 30px;
+	margin-top: 30px;
 }
 
 .cta-banner p {
-    color: #4c5667;
-    font-size: 18px;
+	color: #4c5667;
+	font-size: 18px;
 }
 
 .slider .slider-container {
-    position: relative;
-    padding: 10px 30px;
+	position: relative;
+	padding: 10px 30px;
 }
 
 #callMeForm input .help-block ul li {
-    height: 10px !important;
+	height: 10px !important;
 }
 ul.list-unstyled.li-space-lg {
-    position: relative;
+	position: relative;
 }
 .scribble {
-    text-align: right;
-    position: absolute;
-    right: 0;
+	text-align: right;
+	position: absolute;
+	right: 0;
 }
 #callMe .scribble img {
-    width: 120px;
-    text-align: right;
+	width: 120px;
+	text-align: right;
+}
+
+#emergency-line{
+	background-color: #F8F8F8;
+}
+/* end of custom code */
+
+.service-img{
+	height: 200px;
 }
