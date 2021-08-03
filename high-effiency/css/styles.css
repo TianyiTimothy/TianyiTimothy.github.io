@@ -1176,7 +1176,7 @@ input[type='checkbox'] {
 /**********************/
 .form-1 {
 	padding-top: 6.625rem;	
-	padding-bottom: 5.625rem;	
+	padding-bottom: 3rem;	
 	background-color: #ffffff;
 }
 
@@ -2392,8 +2392,8 @@ a:hover.back-to-top {
 }
 
 .section{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3.5rem;
+	padding-bottom: 3rem;
 }
 
 .section p,
@@ -2581,7 +2581,7 @@ span.highlight{
 /* testimonials */
 .slider {
 	padding-top: 6.375rem;
-	padding-bottom: 6.5rem;
+	padding-bottom: 3rem;
 	background-color: #ffffff;
 }
 
@@ -2693,8 +2693,6 @@ form#callMeForm {
 }
 .why-choose-us.section {
 	background: #F8F8F8;
-	padding-top: 30px;
-	margin-top: 30px;
 }
 
 .cta-banner p {
@@ -2762,7 +2760,7 @@ ul.list-unstyled.li-space-lg {
 	}
 	.order-2{
 		order: 2;
-    margin: 5rem 0 0 0;
+    margin: 2rem 0 0 0;
 	}
 	#about-us.basic-1 .text-container-right{
 		margin-top: 0;
