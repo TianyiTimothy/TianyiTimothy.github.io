@@ -1177,7 +1177,7 @@ input[type='checkbox'] {
 .form-1 {
 	padding-top: 6.625rem;	
 	padding-bottom: 5.625rem;	
-	background-color: #153e52;
+	background-color: #ffffff;
 }
 
 .form-1 .text-container {
@@ -2419,6 +2419,15 @@ a:hover.back-to-top {
 	margin-top: -50%;
 }
 
+span.bold{
+	font-weight: 700;
+}
+
+span.highlight{
+	font-weight: 700;
+	color: #f59326;
+}
+
 /* end of General */
 
 /* why choose us */
@@ -2429,6 +2438,21 @@ a:hover.back-to-top {
 	margin: 0 1%;
 	font-family: "Montserrat", sans-serif;
 	border: none;
+}
+
+
+@media (max-width: 1200px){
+	.why-choose-us .card {
+		margin-top: 5rem;
+		width: 100%;
+		border: none;
+	}
+	.why-choose-us .first-card {
+		margin-top: 0;
+	}
+	.why-choose-us .card p{
+		height: auto;
+	}
 }
 
 .why-choose-us .card p{
@@ -2495,6 +2519,13 @@ a:hover.back-to-top {
 	color: #e79742;
 	text-decoration: none;
 }
+
+.ductless-banner{
+	background-image: url("../images/banner-ductless.jpg");
+}
+.secure-banner{
+	background-image: url("../images/banner-secure.jpg");
+}
 /* end of CTA Banner */
 
 
@@ -2506,6 +2537,13 @@ a:hover.back-to-top {
 	float: left;
 	margin: 0 1%;
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 1200px){
+	.our-services .card {
+			width: 100%;
+			border: none;
+	}
 }
 
 .our-services .card p{
@@ -2609,8 +2647,20 @@ a:hover.back-to-top {
 	margin-top: 2rem;
 }
 .review-image{
+	max-width: 250px;
+	max-height: 100%;
+	display: block;
+}
+
+.slider .image-box{
+	display: inline-block;
 	height: 100px;
 	margin: 0 1rem;
+}
+
+.slider .image-box span{
+	font-weight: 700;
+	color: black;
 }
 /* end of testimonials */
 
@@ -2667,6 +2717,56 @@ ul.list-unstyled.li-space-lg {
 	text-align: right;
 	position: absolute;
 	right: 0;
+}
+@media (max-width: 1200px){
+	.scribble{
+		display: none;
+	}
+	form#callMeForm{
+		margin-top: 0;
+	}
+	.benefit-wrap{
+		order: 2;
+		margin: 5rem 0 0 0;
+	}
+	.form-wrap{
+		order: 1;
+		margin: 0;
+	}
+	.form-1 .text-container{
+		margin-bottom: 0;
+	}
+	.form-1{
+		padding-top: 3rem;
+		padding-bottom: 0rem;
+	}
+	.text-left,.text-right{
+		text-align: center !important;
+	}
+
+	.featured-banner{
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	.review-image-box{
+		margin-top: 5rem;
+	}
+	.slider .swiper-button-next,
+	.slider .swiper-button-prev{
+		top: 10rem;
+	}
+	.order-1{
+		order: 1;
+    margin: 0;
+		padding-top: 0;
+	}
+	.order-2{
+		order: 2;
+    margin: 5rem 0 0 0;
+	}
+	#about-us.basic-1 .text-container-right{
+		margin-top: 0;
+	}
 }
 #callMe .scribble img {
 	width: 120px;

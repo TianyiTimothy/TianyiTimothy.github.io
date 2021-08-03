@@ -132,10 +132,10 @@
     <!-- end of header -->
 
     <!-- form -->
-    <div id="callMe" class="form-1" style="background-color: white; height: 33rem;" style="font-family: 'Montserrat', sans-serif;">
+    <div id="callMe" class="form-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 benefit-wrap">
                     <div class="text-container">
                         <ul class="list-unstyled li-space-lg white" style="color:#153e52;">
                             <li class="media">
@@ -151,12 +151,12 @@
                                 <div class="media-body"><h3>100% Satisfaction Guaranteed</h3></div>
                             </li>
                             <li class="media scribble">
-                                <div><img src="images/scribble.png" alt="" ></div>
+                                <div><img src="images/scribble.png" alt="scribble" ></div>
                             </li>
                         </ul>
                     </div>
                 </div> <!-- end of col -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 form-wrap">
                    
                     <!-- Call Me Form -->
                     <form id="callMeForm" data-toggle="validator" data-focus="false" novalidate="true" class="shake animated">
@@ -207,7 +207,7 @@
                 <div class="col-lg-12">
                     
                     <!-- Card -->
-                    <div class="card">
+                    <div class="card first-card">
                         <span class="fa-stack">
                             <div class="mtn-50">
                                 <span class="hexagon"></span>
@@ -215,8 +215,7 @@
                             </div>
                         </span>
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p>President Award-winning HVAC company specializing in condos</p>
+                            <p><span class="bold">President Award-winning</span> HVAC company specializing in condos</p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -226,12 +225,11 @@
                         <span class="fa-stack">
                             <div class="mtn-50">
                                 <span class="hexagon"></span>
-                                <i class="fas fa-gift fa-stack-1x"></i>
+                                <i class="fas fa-gem fa-stack-1x"></i>
                             </div>
                         </span>
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p>Top Carrier Dealer in Toronto with high quality units and a focus on service</p>
+                            <p><span class="bold">Top Carrier Dealer</span> in Toronto with high quality units and a focus on service</p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -245,8 +243,7 @@
                             </div>
                         </span>
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p>Best price guaranteed on condo heat pump repairs and servicing</p>
+                            <p><span class="bold">Best price guaranteed</span> on condo heat pump repairs and servicing</p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -260,8 +257,7 @@
                             </div>
                         </span>
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p>Over 20,000 satisfied customers</p>
+                            <p><span class="bold">Over 20,000 satisfied customers</span></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -284,7 +280,7 @@
             <p>
                 Same-day service and the BEST PRICE for condo cooling and heating systems
                 <br />
-                Specializing in: Condo Heat Pumps, Water Source Heat Pumps, Magic-Pak, PTAC & Fan Coils.
+                Specializing in: <span class="highlight">Condo Heat Pumps</span>, <span class="highlight">Water Source Heat Pumps</span>, <span class="highlight">Magic-Pak</span>, <span class="highlight">PTAC & Fan Coils</span>.</span>
             </p>
             <a class="btn-solid-lg page-scroll" href="#callMeForm">Book a FREE Consultation</a>
         </div> <!-- end of container -->
@@ -358,7 +354,7 @@
     <!-- end of Our Services -->
 
     <!-- CTA Banner 2 -->
-    <div class="cta-banner featured-banner">
+    <div class="cta-banner featured-banner ductless-banner">
         <div class="container text-left">
             <div class="row section-title">
                 <div class="col-lg-12 text-left">
@@ -375,7 +371,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Customer Testimonials</h2>
+                    <h2>What Our Customers Say</h2>
                     <p class="text-center">Toronto’s best Carrier® Factory Authorized Dealer with 20,000+ satisfied customers</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -430,9 +426,17 @@
                             <div class="swiper-button-prev"></div>
                             <!-- end of add arrows -->
                             <div class="review-image-box">
-                                <image class="review-image" alt="635 google reviews with 4.9/5.0 rating" src="https://images.squarespace-cdn.com/content/v1/5e750890b86cbc66666fbadc/1623259904501-BV9R80916EPVBJHXELZF/google%2Breviews%2Bwith%2Brating.png?format=500w"></image>
-                                <image class="review-image" alt="395 HomeStars reviews with 9.8/10 rating" src="https://images.squarespace-cdn.com/content/v1/5e750890b86cbc66666fbadc/1623260061936-GXR5SFQV1OH9S96OLRAQ/Homestars%2Brewards%2BRating.png?format=500w"></image>
-                                <image class="review-image" alt="Carrier President Award" src="https://images.squarespace-cdn.com/content/v1/5e750890b86cbc66666fbadc/1623261698801-L5EEXNYSMU3N6KYDPBNP/20PresAward_color.png?format=500w"></image>
+                                <div class="image-box">
+                                    <image class="review-image" alt="635 google reviews with 4.9/5.0 rating" src="./images/testimonials-google.jpg"></image>
+                                    <span>634 Google Reviews</span>
+                                </div>
+                                <div class="image-box">
+                                    <image class="review-image" alt="395 HomeStars reviews with 9.8/10 rating" src="./images/testimonials-homestars.jpg"></image>
+                                    <span>Rating: 9.8/10 395 Reviews</span>
+                                </div>
+                                <div class="image-box">
+                                    <image class="review-image" alt="Carrier President Award" src="./images/testimonials-award.jpg"></image>
+                                </div>
                             </div>
                         </div> <!-- end of swiper-container -->
                     </div> <!-- end of sliedr-container -->
@@ -449,11 +453,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="text-container">
+                    <div class="text-container text-left">
                         <h2>24/7 Emergency <br>Service Line</h2>
                         <p>
                             We understand how unbearable it is to sweat through sticky summers or suffer in the Canadian winter. So our licensed HVAC experts offer 24/7 service, 365 days a year. Expect transparent, honest, and speedy service every time. Give us a call!
                         </p>
+                        <a href="tel:9053072988" class="btn-solid-lg page-scroll"><i class="fas fa-phone-alt"></i>&nbsp;905-307-2988</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -471,12 +476,12 @@
     <div id="about-us" class="basic-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-2">
                     <div class="image-container">
                         <iframe width="100%" height="470" src="https://www.youtube.com/embed/O0cKNNuMmqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-1">
                     <div class="text-container-right ml-3">
                         <h2>Your Comfort is Our Promise</h2>
                         <p>
@@ -495,11 +500,12 @@
 
 
     <!-- CTA Banner 3 -->
-    <div class="cta-banner featured-banner">
-        <div class="container text-left">
+    <div class="cta-banner featured-banner secure-banner">
+        <div class="container text-right">
             <div class="row section-title">
-                <div class="col-lg-12 text-left">
-                    <h2>Get up to $5,000 Rebate from <br>the Federal Energy-Saving Rebate.</h2>
+                <div class="col-lg-12 text-right">
+                    <h2>Don’t miss this amazing deal!</h2>
+                    <p>Get up to $5,000 Rebate from the Federal Energy-Saving Rebate.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <a class="btn-solid-lg page-scroll" href="#callMeForm">Secure Your Deal Today</a>
