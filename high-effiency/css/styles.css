@@ -2753,12 +2753,12 @@ ul.list-unstyled.li-space-lg {
 	.slider .swiper-button-prev{
 		top: 10rem;
 	}
-	.order-1{
+	.about-order-1{
 		order: 1;
     margin: 0;
 		padding-top: 0;
 	}
-	.order-2{
+	.about-order-2{
 		order: 2;
     margin: 2rem 0 0 0;
 	}
