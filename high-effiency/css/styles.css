@@ -2808,6 +2808,9 @@ li.highlight{
 	h2{
 		font-size: 32px;
 	}
+	.review-image{
+		max-width: 100%;
+	}
 }
 #callMe .scribble img {
 	width: 120px;
