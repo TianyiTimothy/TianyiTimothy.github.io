@@ -1204,7 +1204,6 @@ input[type='checkbox'] {
 	color: #e79742;
 	font-size: 1.75rem;
 	line-height: 1.375rem;
-    padding-right: 15px;
 }
 
 .form-1 .list-unstyled .media-body {
@@ -2796,6 +2795,10 @@ ul.list-unstyled.li-space-lg {
 
 #emergency-line{
 	background-color: #F8F8F8;
+}
+
+li.highlight{
+	color: #4c5667;
 }
 /* end of custom code */
 
