@@ -2811,6 +2811,9 @@ li.highlight{
 	.review-image{
 		max-width: 100%;
 	}
+	.basic-1,.section,.slider{
+		padding-top: 3rem;
+	}
 }
 #callMe .scribble img {
 	width: 120px;
