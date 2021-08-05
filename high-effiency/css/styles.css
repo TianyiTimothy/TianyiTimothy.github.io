@@ -775,6 +775,13 @@ input[type='checkbox'] {
 	background: url('../images/banner3.0.jpg') center center no-repeat;
 	background-size: cover;
 }
+@media (max-width: 1200px) {
+	.header {
+		background: url('../images/banner3.0-mobile.jpg') center center no-repeat;
+		height: 50rem;
+		background-size: cover;
+	}
+}
 
 .header .header-content {
 	padding-top: 8rem;
@@ -2440,6 +2447,11 @@ span.highlight{
 	border: none;
 }
 
+.why-choose-us .card p{
+	font-family: "Montserrat", sans-serif;
+	display: inline-block;
+	height: 100px;
+}
 
 @media (max-width: 1200px){
 	.why-choose-us .card {
@@ -2455,11 +2467,6 @@ span.highlight{
 	}
 }
 
-.why-choose-us .card p{
-	font-family: "Montserrat", sans-serif;
-	display: inline-block;
-	height: 100px;
-}
 
 .why-choose-us .fa-stack {
 	width: 6rem;
@@ -2716,6 +2723,9 @@ ul.list-unstyled.li-space-lg {
 	position: absolute;
 	right: 0;
 }
+.service-img{
+	height: 200px;
+}
 @media (max-width: 1200px){
 	.scribble{
 		display: none;
@@ -2765,6 +2775,20 @@ ul.list-unstyled.li-space-lg {
 	#about-us.basic-1 .text-container-right{
 		margin-top: 0;
 	}
+	.service-img{
+		height: 100%;
+	}
+	.slider .image-box{
+		padding-bottom: 2rem;
+		height: auto;
+	}
+	.cta-banner{
+		background:  url("../images/section-bg.jpg") rgba(0, 0, 0, 0.3) no-repeat bottom right;
+		background-blend-mode: multiply;
+	}
+	.cta-banner h2,.cta-banner p{
+		color: white;
+	}
 }
 #callMe .scribble img {
 	width: 120px;
@@ -2776,6 +2800,3 @@ ul.list-unstyled.li-space-lg {
 }
 /* end of custom code */
 
-.service-img{
-	height: 200px;
-}
