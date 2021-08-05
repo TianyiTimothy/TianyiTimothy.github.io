@@ -2403,19 +2403,9 @@ a:hover.back-to-top {
 	padding-bottom: 3rem;
 }
 
-.section p,
-.section ul,
-.section li{
-	font-family: "Montserrat", sans-serif;
-}
-
 .featured-banner{
 	padding-top: 100px;
 	padding-bottom: 100px;
-}
-
-.featured-banner p{
-	font-family: "Montserrat", sans-serif;
 }
 
 .section-title{
@@ -2497,8 +2487,8 @@ span.highlight{
 /* CTA Banner */
 .cta-banner{
 	background-image:url("../images/section-bg.jpg");
-    background-position: center;
-    background-size: cover;
+	background-position: center;
+	background-size: cover;
 }
 
 .cta-banner h2{
@@ -2785,6 +2775,15 @@ ul.list-unstyled.li-space-lg {
 	.cta-banner{
 		background:  url("../images/section-bg.jpg") rgba(0, 0, 0, 0.5) no-repeat bottom right;
 		background-blend-mode: multiply;
+		background-size: cover;
+	}
+	.ductless-banner{
+		background:  url("../images/banner-ductless.jpg") rgba(0, 0, 0, 0.3) no-repeat bottom right;
+		background-size: cover;
+	}
+	.secure-banner{
+		background:  url("../images/banner-secure.jpg") rgba(0, 0, 0, 0.25) no-repeat bottom left;
+		background-size: cover;
 	}
 	.cta-banner h2,.cta-banner p{
 		color: white;
