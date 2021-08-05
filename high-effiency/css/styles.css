@@ -2715,6 +2715,12 @@ ul.list-unstyled.li-space-lg {
 .service-img{
 	height: 200px;
 }
+li.highlight{
+	color: #4c5667;
+}
+.mbd{
+	display: none;
+}
 @media (max-width: 1200px){
 	.scribble{
 		display: none;
@@ -2724,7 +2730,7 @@ ul.list-unstyled.li-space-lg {
 	}
 	.benefit-wrap{
 		order: 2;
-		margin: 5rem 0 0 0;
+		margin: 2rem 0 0 0;
 	}
 	.form-wrap{
 		order: 1;
@@ -2786,6 +2792,21 @@ ul.list-unstyled.li-space-lg {
 	}
 	.cta-banner h2,.cta-banner p{
 		color: white;
+		text-align: left;
+	}
+	#callMe ul li .media-body h3{
+		font-weight: 400;
+		padding-bottom: 0.25em;
+	}
+	li.highlight{
+		color: white;
+		text-align: left;
+	}
+	.mbd{
+		display: block;
+	}
+	h2{
+		font-size: 32px;
 	}
 }
 #callMe .scribble img {
@@ -2797,8 +2818,5 @@ ul.list-unstyled.li-space-lg {
 	background-color: #F8F8F8;
 }
 
-li.highlight{
-	color: #4c5667;
-}
 /* end of custom code */
 
