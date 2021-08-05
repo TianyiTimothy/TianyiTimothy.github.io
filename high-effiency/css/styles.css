@@ -2783,7 +2783,7 @@ ul.list-unstyled.li-space-lg {
 		height: auto;
 	}
 	.cta-banner{
-		background:  url("../images/section-bg.jpg") rgba(0, 0, 0, 0.3) no-repeat bottom right;
+		background:  url("../images/section-bg.jpg") rgba(0, 0, 0, 0.5) no-repeat bottom right;
 		background-blend-mode: multiply;
 	}
 	.cta-banner h2,.cta-banner p{
