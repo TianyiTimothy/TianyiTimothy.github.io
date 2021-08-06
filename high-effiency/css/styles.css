@@ -2797,6 +2797,10 @@ li.highlight{
 		padding-bottom: 2rem;
 		height: auto;
 	}
+	.card-body p:last-child{
+		height: auto;
+		margin-bottom: 0;
+	}
 	.slider .image-box:last-child{
 		padding-bottom: 0;
 	}
@@ -2818,6 +2822,9 @@ li.highlight{
 	}
 	.cta-banner h2,.cta-banner p{
 		text-align: left;
+	}
+	.ductless-banner h2,.ductless-banner p{
+		text-align: center;
 	}
 	#callMe ul li .media-body h3{
 		font-weight: 400;
