@@ -2407,6 +2407,10 @@ a:hover.back-to-top {
 	padding-bottom: 100px;
 }
 
+.featured-banner p{
+	padding: 0 18px;
+}
+
 .section-title{
 	padding-top: 30px;
 	padding-bottom: 30px;
