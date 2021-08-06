@@ -777,7 +777,7 @@ input[type='checkbox'] {
 }
 @media (max-width: 1200px) {
 	.header {
-		background: url('../images/banner3.0-mobile.jpg') center center no-repeat;
+		background: url('../images/banner3.0-mobile.jpg') 56.5% no-repeat;
 		height: 50rem;
 		background-size: cover;
 	}
@@ -2740,6 +2740,7 @@ li.highlight{
 	}
 	form#mc-embedded-subscribe-form{
 		margin-top: 0;
+		padding: 50px 25px 30px 25px;
 	}
 	.benefit-wrap{
 		order: 2;
@@ -2758,6 +2759,7 @@ li.highlight{
 	}
 	.text-left,.text-right{
 		text-align: center !important;
+		padding: 0 30px;
 	}
 
 	.featured-banner{
@@ -2784,7 +2786,8 @@ li.highlight{
 		margin-top: 0;
 	}
 	.service-img{
-		height: 100%;
+		width: 75%;
+		height: auto;
 	}
 	.slider .image-box{
 		padding-bottom: 2rem;
