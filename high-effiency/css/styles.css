@@ -2407,8 +2407,8 @@ a:hover.back-to-top {
 	padding-bottom: 100px;
 }
 
-.featured-banner p{
-	padding: 0 18px;
+.first-banner p{
+	padding: 0 18px !important;
 }
 
 .section-title{
@@ -2512,7 +2512,7 @@ span.highlight{
 	font: 700 1rem/0 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
-    font-size: 22px !important;
+    font-size: 20px !important;
 }
 
 .btn-solid-lg:hover {
