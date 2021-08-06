@@ -2752,7 +2752,7 @@ li.highlight{
 		padding-bottom: 2rem;
 	}
 	.review-image-box{
-		margin-top: 5rem;
+		margin-top: 2rem;
 	}
 	.slider .swiper-button-next,
 	.slider .swiper-button-prev{
@@ -2777,18 +2777,24 @@ li.highlight{
 		padding-bottom: 2rem;
 		height: auto;
 	}
+	.slider .image-box:last-child{
+		padding-bottom: 0;
+	}
 	.cta-banner{
-		background:  url("../images/section-bg.jpg") rgba(0, 0, 0, 0.5) no-repeat bottom right;
+		background:  url("../images/section-bg-mobile.jpg") rgba(0, 0, 0, 0.15) no-repeat bottom center;
 		background-blend-mode: multiply;
 		background-size: cover;
+		padding-bottom: 18rem;
 	}
 	.ductless-banner{
-		background:  url("../images/banner-ductless.jpg") rgba(0, 0, 0, 0.3) no-repeat bottom right;
+		background:  url("../images/banner-ductless-mobile.jpg") rgba(0, 0, 0, 0.25) no-repeat bottom right;
 		background-size: cover;
+		padding-bottom: 12rem;
 	}
 	.secure-banner{
-		background:  url("../images/banner-secure.jpg") rgba(0, 0, 0, 0.25) no-repeat bottom left;
+		background:  url("../images/banner-secure-mobile.jpg") rgba(0, 0, 0, 0.25) no-repeat bottom left;
 		background-size: cover;
+		padding-bottom: 20rem;
 	}
 	.cta-banner h2,.cta-banner p{
 		color: white;
@@ -2806,7 +2812,7 @@ li.highlight{
 		display: block;
 	}
 	h2{
-		font-size: 32px;
+		font-size: 28px;
 	}
 	.review-image{
 		max-width: 100%;
