@@ -2844,6 +2844,9 @@ li.highlight{
 	.image-container iframe{
 		height: 195px;
 	}
+	.featured-banner p{
+		padding: 0;
+	}
 }
 #callMe .scribble img {
 	width: 120px;
