@@ -2,26 +2,56 @@
 <html>
 
 <body id="body">
-    <link rel="stylesheet" href="css/vue.css">
+    <style>
+        #body{
+            margin: 0;
+            padding: 0;
+        }
+        #app{
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 3em;
+            height: 100%;
+            background: #FB8072;
+            position: absolute;
+        }
+        .text{
+            display: block;
+            position: relative;
+            top: calc(50% - 50px);
+        }
+        .text input{
+            height: 100px;
+        }
+        #app button{
+            height: 150px;
+            width: 90px;
+            font-size: 2em;
+        }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
     <div id="app">
-        <span id="handsome">My Handsomeness: {{handsomeness}} Out of 10</span>
-        <button @click="add">+</button>
-        <button @click="sub">-</button>
+        <span class="text">左边是被平方数，右边是平方数，比如(5/6)^(1/18)</span>
+        <span class="text"><input type="text" id="num1" @change="get_result">^<input type="text" id="num2" @change="get_result"></span>
+        <span class="text" id="result">{{result}}</span>
     </div>
     <script>
         const app = new Vue({
             el: "#app",
             data: {
-                handsomeness: 10
+                result: 0,
             },
             methods: {
-                add: function () {
-                    this.handsomeness++;
+                get_result: function () {
+                    num1 = (eval(document.getElementById("num1").value));
+                    num2 = (eval(document.getElementById("num2").value));
+
+                    this.result = Math.pow(num1, num2);
                 },
                 sub: function () {
-                    alert("no way.");
+                    alert("不行.");
                 }
             },
         });
